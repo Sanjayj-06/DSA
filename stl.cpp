@@ -45,6 +45,22 @@ cout<< *(it);
 }
 
 
+vector<int> v1;
+auto it= v1.begin();
+v1.erase(it);// erasing the first element
+
+/* pop_back() - it deletes the last element and returns it to the calling function. */
+v1.pop_back();
+
+/* clear() - deletes all the elements from the vector.*/
+v1.clear();
+/*empty() - to check if the vector is empty or not.*/
+v1.empty();
+/*size() - returns the size of the vector*/
+v1.size();
+
+
+
 
 
 
