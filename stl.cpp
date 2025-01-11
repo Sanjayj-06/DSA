@@ -24,3 +24,30 @@ v.emplace_back(1,2);
 /*vector pre declaration*/
 vector <int> v(5,20); /*{20,20,20,20,20}*/
 vector <int> v1(v); /*v1 is copied to v*/
+
+
+/*vector iterator*/
+vector<int>::iterator it=v.begin(); /* --> this will store the memory */
+cout << *(it);
+
+vector<int>::iterator it=v.end(); /* stores the memory location after the last element */
+v.back() /* last element*/
+
+
+for(vector<int>::iterator it=v.begin();it !=v.end();it++){
+cout << *(it);
+}
+
+/*to reuce syntax we use*/
+
+for(auto it=v.begin(); it!=v.end() ;it++) {
+cout<< *(it);
+}
+
+
+
+
+
+
+
+
