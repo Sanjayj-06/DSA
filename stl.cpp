@@ -59,6 +59,11 @@ v1.empty();
 /*size() - returns the size of the vector*/
 v1.size();
 
+/*insert and delete syntax*/
+v.erase(iterator);
+v.erase(start_loc,end_loc);
+v.insert(pos,element);
+v.insert(pos,no_of_elements,elements);
 
 
 
